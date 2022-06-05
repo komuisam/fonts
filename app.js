@@ -53,6 +53,6 @@ txt = board.create('text',[0,1,
 });
 
 txt2 = board.create('text',[0,-0.5, 
-    "<p class='love3'>Andrea</p>"
-    ], {fixed:true,fontSize:35,anchorX:'middle'
+    "<p class='love3'>Andrea Valentina</p>"
+    ], {fixed:true,fontSize:28, anchorX:'middle'
 });
