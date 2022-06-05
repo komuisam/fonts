@@ -48,16 +48,11 @@ const curve = board.create('cardinalspline', [p, 1.3, 'centripetal'], {
 });
 
 txt = board.create('text',[0,1, 
-    "<p class='love2'>I Love you</p>"
-    ], {fixed:true,fontSize:45,anchorX:'middle'
+    "<p class='love2'>I Love You</p>"
+    ], {fixed:true,fontSize:60,anchorX:'middle'
 });
 
 txt2 = board.create('text',[0,-0.5, 
-    "<p class='love3'>Andrea</p>"
-    ], {fixed:true,fontSize:30,anchorX:'middle'
-});
-
-txt3 = board.create('text',[0,-2, 
-    "<p class='love3'>V</p>"
+    "<p class='love3'>Andrea Valentina</p>"
     ], {fixed:true,fontSize:30,anchorX:'middle'
 });
