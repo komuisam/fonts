@@ -1,4 +1,3 @@
-
 let board = JXG.JSXGraph.initBoard("board", {
     label: false,
     axis: false,
@@ -48,18 +47,17 @@ const curve = board.create('cardinalspline', [p, 1.3, 'centripetal'], {
     fixed:true, createPoints: false ,strokeWidth:3, strokeColor:"red"
 });
 
-txt = board.create('text',[0.5,1, 
+txt = board.create('text',[0,1, 
     "<p class='love2'>I Love you</p>"
     ], {fixed:true,fontSize:45,anchorX:'middle'
 });
 
-txt2 = board.create('text',[-0.5,-0.5, 
+txt2 = board.create('text',[0,-0.5, 
     "<p class='love3'>Andrea</p>"
     ], {fixed:true,fontSize:30,anchorX:'middle'
 });
 
-txt3 = board.create('text',[-0.5,-2, 
+txt3 = board.create('text',[0,-2, 
     "<p class='love3'>V</p>"
     ], {fixed:true,fontSize:30,anchorX:'middle'
 });
-
