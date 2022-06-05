@@ -1,6 +1,9 @@
 .med-board {
 	width: 350px;
 	height: 350px;
+  text-align: center;
+  margin: 0;
+  padding: 0; 
 }
 
 @font-face {
@@ -19,6 +22,7 @@
  
 .love2 { 
  	font-family: "Spring in May", serif;
+  text-align: center;
 }
  
 @font-face {
@@ -28,5 +32,6 @@
  
 .love3 { 
  	font-family: "SweetHeartRegular", serif;
+  text-align: center;
 }
  
