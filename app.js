@@ -40,7 +40,8 @@ const p = [
     [2,3.5],
     [3, 3],
     [3, 0],
-    [0, -3]
+    [0, -3] 
+    
 ];
 
 const curve = board.create('cardinalspline', [p, 1.3, 'centripetal'], {
