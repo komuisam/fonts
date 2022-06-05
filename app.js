@@ -1,5 +1,5 @@
 
-    let board = JXG.JSXGraph.initBoard("board", {
+let board = JXG.JSXGraph.initBoard("board", {
     label: false,
     axis: false,
     boundingbox: [-4, 4, 4, -4],
@@ -13,6 +13,22 @@
         panShift: true,
         panCtrl: false,
     },
+    pan : {
+        needTwoFingers: true,
+        enabled: false,
+        needShift: true
+    },
+    zoom :{
+        needShift: false,
+        pinchHorizontal: false,
+        pinchVertical: false,
+        pinchSensitivity: 0,
+        min: 1000,
+        max: 0,
+        factorX: 0,
+        factorY: 0,
+        wheel: false
+    }
 });
 const p = [ 
     [0, -3], 
@@ -34,17 +50,22 @@ const p = [
     [0, -3]
 ];
 
-const curve = board.create('cardinalspline', [p, 1.3, 'centripetal'], {fixed:true, createPoints: false ,strokeWidth:3, strokeColor:"red"});
+const curve = board.create('cardinalspline', [p, 1.3, 'centripetal'], {
+    fixed:true, createPoints: false ,strokeWidth:3, strokeColor:"red"
+});
 
 txt = board.create('text',[0,1, 
     "<p class='love2'>I Love you</p>"
-    ], {fontSize:45,anchorX:'middle'});
+    ], {fixed:true,fontSize:45,anchorX:'middle'
+});
 
 txt2 = board.create('text',[0,-0.5, 
     "<p class='love3'>Andrea</p>"
-    ], {fontSize:30,anchorX:'middle'});
+    ], {fixed:true,fontSize:30,anchorX:'middle'
+});
 
 txt3 = board.create('text',[0,-2, 
     "<p class='love3'>V</p>"
-    ], {fontSize:30,anchorX:'middle'});
+    ], {fixed:true,fontSize:30,anchorX:'middle'
+});
 

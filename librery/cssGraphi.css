@@ -3,21 +3,6 @@
 	height: 350px;
 }
 
-.short-board {
-	width: 350px;
-	height: 200px;
-}
-
-.big-board {
-	width: 600px;
-	height: 450px;
-}
-
-.input-zise {
-	width: 50px;
-	border-radius: 10%;
-}
-
 @font-face {
       font-family: "Austria";
       src: url("../fontLove/austria/Austria.ttf");
@@ -27,7 +12,7 @@
  	font-family: "Austria", serif;
 }
 
-  @font-face {
+@font-face {
       font-family: "Spring in May";
       src: url("../fontLove/spring_in_may/Spring_in_May.ttf");
     }
